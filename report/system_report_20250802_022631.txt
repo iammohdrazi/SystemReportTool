@@ -1,0 +1,77 @@
+===== SYSTEM REPORT =====
+
+[System Info]
+System: Linux
+Node Name: razi-VirtualBox
+Release: 6.14.0-22-generic
+Version: #22-Ubuntu SMP PREEMPT_DYNAMIC Wed May 21 15:01:51 UTC 2025
+Machine: x86_64
+Processor: x86_64
+Boot Time: Sat Aug  2 00:46:29 2025
+
+[CPU Info]
+Physical Cores: 4
+Logical CPUs: 4
+Core 0: 1.0%
+Core 1: 2.0%
+Core 2: 1.0%
+Core 3: 0.0%
+Total CPU Usage: 1.5%
+
+[Memory Info]
+Virtual Memory:
+  Total: 6.74 GB
+  Available: 4.38 GB
+  Used: 2.00 GB
+  Free: 1.24 GB
+  Usage %: 35.0%
+Swap Memory:
+  Total: 4.00 GB
+  Used: 0.00 GB
+  Free: 4.00 GB
+  Usage %: 0.0%
+
+[Disk Info]
+Device: /dev/sda2 | Mount: / | FS: ext4
+  Total: 34.15 GB | Used: 12.06 GB | Free: 20.33 GB | Usage: 37.2%
+Device: /dev/loop1 | Mount: /snap/bare/5 | FS: squashfs
+  Total: 0.00 GB | Used: 0.00 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop0 | Mount: /snap/core22/2045 | FS: squashfs
+  Total: 0.07 GB | Used: 0.07 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop4 | Mount: /snap/firmware-updater/167 | FS: squashfs
+  Total: 0.01 GB | Used: 0.01 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop3 | Mount: /snap/firefox/6042 | FS: squashfs
+  Total: 0.24 GB | Used: 0.24 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop5 | Mount: /snap/gnome-42-2204/202 | FS: squashfs
+  Total: 0.50 GB | Used: 0.50 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop2 | Mount: /snap/desktop-security-center/59 | FS: squashfs
+  Total: 0.01 GB | Used: 0.01 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop9 | Mount: /snap/snapd/24718 | FS: squashfs
+  Total: 0.05 GB | Used: 0.05 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop6 | Mount: /snap/gtk-common-themes/1535 | FS: squashfs
+  Total: 0.09 GB | Used: 0.09 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop11 | Mount: /snap/thunderbird/706 | FS: squashfs
+  Total: 0.21 GB | Used: 0.21 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop7 | Mount: /snap/prompting-client/104 | FS: squashfs
+  Total: 0.01 GB | Used: 0.01 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop12 | Mount: /snap/snapd-desktop-integration/315 | FS: squashfs
+  Total: 0.00 GB | Used: 0.00 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop14 | Mount: /snap/snapd/24792 | FS: squashfs
+  Total: 0.05 GB | Used: 0.05 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop13 | Mount: /snap/core22/2010 | FS: squashfs
+  Total: 0.07 GB | Used: 0.07 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop8 | Mount: /snap/snap-store/1270 | FS: squashfs
+  Total: 0.01 GB | Used: 0.01 GB | Free: 0.00 GB | Usage: 100.0%
+Device: /dev/loop10 | Mount: /snap/snapd-desktop-integration/253 | FS: squashfs
+  Total: 0.00 GB | Used: 0.00 GB | Free: 0.00 GB | Usage: 100.0%
+
+[Network Info]
+Hostname: razi-VirtualBox
+IP Address: 127.0.1.1
+Bytes Sent: 2.95 MB
+Bytes Received: 50.15 MB
+
+[Battery Info]
+Percent: 81.0
+Plugged In: True
+Time Left (min): N/A

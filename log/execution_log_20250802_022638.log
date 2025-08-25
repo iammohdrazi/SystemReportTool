@@ -1,0 +1,14 @@
+2025-08-02 02:26:38,812 - INFO - Program started.
+2025-08-02 02:26:38,812 - DEBUG - Entered dummy_task function.
+2025-08-02 02:26:38,812 - INFO - Starting task execution...
+2025-08-02 02:26:39,814 - DEBUG - Generated warning_chance = 0.7703
+2025-08-02 02:26:39,814 - DEBUG - Generated error_chance = 0.0038
+2025-08-02 02:26:39,814 - CRITICAL - A critical error is about to be raised.
+2025-08-02 02:26:39,814 - ERROR - An exception occurred during execution.
+Traceback (most recent call last):
+  File "/home/razi/Documents/github/Python/Python/scripts/SystemReportTool/task_logger.py", line 50, in main
+    result = dummy_task()
+  File "/home/razi/Documents/github/Python/Python/scripts/SystemReportTool/task_logger.py", line 39, in dummy_task
+    raise RuntimeError("Simulated task failure due to unexpected error.")
+RuntimeError: Simulated task failure due to unexpected error.
+2025-08-02 02:26:39,819 - INFO - Program finished execution.
