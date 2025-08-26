@@ -6,25 +6,25 @@ Release: 6.14.0-27-generic
 Version: #27-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 22 17:01:58 UTC 2025
 Machine: x86_64
 Processor: x86_64
-Boot Time: Sun Aug  3 21:40:40 2025
-Uptime: 0:48:24
+Boot Time: Tue Aug 26 22:32:25 2025
+Uptime: 0:06:19
 
 ===== CPU INFO =====
 Physical Cores: 4
 Logical CPUs: 4
-Core 0: 40.9%
-Core 1: 42.3%
-Core 2: 44.7%
-Core 3: 54.7%
-Total CPU Usage: 47.4
+Core 0: 43.4%
+Core 1: 31.2%
+Core 2: 23.5%
+Core 3: 40.7%
+Total CPU Usage: 0.0
 
 ===== MEMORY INFO =====
 Virtual Memory:
   Total: 6.74 GB
-  Available: 4.92 GB
-  Used: 1.55 GB
-  Free: 3.29 GB
-  Usage %: 27.0
+  Available: 4.97 GB
+  Used: 1.47 GB
+  Free: 3.68 GB
+  Usage %: 26.2
 Swap Memory:
   Total: 4.00 GB
   Used: 0.00 GB
@@ -36,11 +36,11 @@ Device: /dev/sda2
 Mount: /
 FS: ext4
 Total: 34.15 GB
-Used: 12.31 GB
-Free: 20.08 GB
-Usage: 38.0%
+Used: 13.19 GB
+Free: 19.19 GB
+Usage: 40.7%
 
-Device: /dev/loop1
+Device: /dev/loop2
 Mount: /snap/bare/5
 FS: squashfs
 Total: 0.00 GB
@@ -49,14 +49,6 @@ Free: 0.00 GB
 Usage: 100.0%
 
 Device: /dev/loop3
-Mount: /snap/firefox/6565
-FS: squashfs
-Total: 0.24 GB
-Used: 0.24 GB
-Free: 0.00 GB
-Usage: 100.0%
-
-Device: /dev/loop5
 Mount: /snap/desktop-security-center/59
 FS: squashfs
 Total: 0.01 GB
@@ -64,23 +56,15 @@ Used: 0.01 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop2
-Mount: /snap/core22/2010
+Device: /dev/loop0
+Mount: /snap/core22/2082
 FS: squashfs
 Total: 0.07 GB
 Used: 0.07 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop4
-Mount: /snap/firefox/6042
-FS: squashfs
-Total: 0.24 GB
-Used: 0.24 GB
-Free: 0.00 GB
-Usage: 100.0%
-
-Device: /dev/loop0
+Device: /dev/loop1
 Mount: /snap/core22/2045
 FS: squashfs
 Total: 0.07 GB
@@ -88,19 +72,11 @@ Used: 0.07 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop7
-Mount: /snap/gnome-42-2204/202
+Device: /dev/loop4
+Mount: /snap/firefox/6565
 FS: squashfs
-Total: 0.50 GB
-Used: 0.50 GB
-Free: 0.00 GB
-Usage: 100.0%
-
-Device: /dev/loop9
-Mount: /snap/gtk-common-themes/1535
-FS: squashfs
-Total: 0.09 GB
-Used: 0.09 GB
+Total: 0.24 GB
+Used: 0.24 GB
 Free: 0.00 GB
 Usage: 100.0%
 
@@ -112,8 +88,24 @@ Used: 0.01 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop15
-Mount: /snap/snapd/24792
+Device: /dev/loop5
+Mount: /snap/gnome-42-2204/202
+FS: squashfs
+Total: 0.50 GB
+Used: 0.50 GB
+Free: 0.00 GB
+Usage: 100.0%
+
+Device: /dev/loop7
+Mount: /snap/gtk-common-themes/1535
+FS: squashfs
+Total: 0.09 GB
+Used: 0.09 GB
+Free: 0.00 GB
+Usage: 100.0%
+
+Device: /dev/loop10
+Mount: /snap/snapd/25202
 FS: squashfs
 Total: 0.05 GB
 Used: 0.05 GB
@@ -128,23 +120,7 @@ Used: 0.01 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop12
-Mount: /snap/snapd-desktop-integration/315
-FS: squashfs
-Total: 0.00 GB
-Used: 0.00 GB
-Free: 0.00 GB
-Usage: 100.0%
-
-Device: /dev/loop11
-Mount: /snap/snapd/24718
-FS: squashfs
-Total: 0.05 GB
-Used: 0.05 GB
-Free: 0.00 GB
-Usage: 100.0%
-
-Device: /dev/loop10
+Device: /dev/loop9
 Mount: /snap/snap-store/1270
 FS: squashfs
 Total: 0.01 GB
@@ -152,8 +128,16 @@ Used: 0.01 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop14
-Mount: /snap/thunderbird/706
+Device: /dev/loop11
+Mount: /snap/firefox/6700
+FS: squashfs
+Total: 0.24 GB
+Used: 0.24 GB
+Free: 0.00 GB
+Usage: 100.0%
+
+Device: /dev/loop16
+Mount: /snap/thunderbird/769
 FS: squashfs
 Total: 0.21 GB
 Used: 0.21 GB
@@ -161,6 +145,14 @@ Free: 0.00 GB
 Usage: 100.0%
 
 Device: /dev/loop13
+Mount: /snap/snapd-desktop-integration/315
+FS: squashfs
+Total: 0.00 GB
+Used: 0.00 GB
+Free: 0.00 GB
+Usage: 100.0%
+
+Device: /dev/loop12
 Mount: /snap/snapd-desktop-integration/253
 FS: squashfs
 Total: 0.00 GB
@@ -168,7 +160,23 @@ Used: 0.00 GB
 Free: 0.00 GB
 Usage: 100.0%
 
-Device: /dev/loop16
+Device: /dev/loop14
+Mount: /snap/snapd/24792
+FS: squashfs
+Total: 0.05 GB
+Used: 0.05 GB
+Free: 0.00 GB
+Usage: 100.0%
+
+Device: /dev/loop15
+Mount: /snap/thunderbird/706
+FS: squashfs
+Total: 0.21 GB
+Used: 0.21 GB
+Free: 0.00 GB
+Usage: 100.0%
+
+Device: /dev/loop17
 Mount: /snap/tree/54
 FS: squashfs
 Total: 0.00 GB
@@ -179,8 +187,8 @@ Usage: 100.0%
 ===== NETWORK INFO =====
 Hostname: razi-VirtualBox
 IP Address: 127.0.1.1
-Bytes Sent: 0.99 MB
-Bytes Received: 8.34 MB
+Bytes Sent: 0.08 MB
+Bytes Received: 0.17 MB
 
 ===== BATTERY INFO =====
 Percent: 80.0%
@@ -188,8 +196,8 @@ Plugged In: True
 Time Left (min): N/A
 
 ===== TOP PROCESSES =====
-firefox (PID: 6413) - 100.6%
-gnome-shell (PID: 2711) - 69.7%
-Isolated Web Co (PID: 6609) - 16.4%
-WebExtensions (PID: 6812) - 4.4%
-python3 (PID: 6331) - 1.6%
+systemd (PID: 1) - 0.0%
+kthreadd (PID: 2) - 0.0%
+pool_workqueue_release (PID: 3) - 0.0%
+kworker/R-rcu_gp (PID: 4) - 0.0%
+kworker/R-sync_wq (PID: 5) - 0.0%
